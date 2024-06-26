@@ -1,0 +1,107 @@
+{
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "call_id": {
+        "type": ["null", "integer"]
+      },
+      "duration": {
+        "type": ["null", "integer"]
+      },
+      "id": {
+        "type": ["null", "integer"]
+      },
+      "live_id": {
+        "type": ["null", "integer"]
+      },
+      "parent_live_id": {
+        "type": ["null", "integer"]
+      },
+      "user_id": {
+        "type": ["null", "integer"]
+      },
+      "sip_endpoint_id": {
+        "type": ["null", "integer"]
+      },
+      "server_id": {
+        "type": ["null", "integer"]
+      },
+      "type": {
+        "type": ["null", "string"]
+      },
+      "calldate": {
+        "type": [
+            "null",
+            "string"
+          ],
+          "format": "date-time"
+      },
+      "clid": {
+        "type": ["null", "string"]
+      },
+      "src_id": {
+        "type": ["null", "string"]
+      },
+      "src_name": {
+        "type": ["null", "string"]
+      },
+      "src": {
+        "type": ["null", "string"]
+      },
+      "src_ua": {
+        "type": ["null", "string"]
+      },
+      "src_codec": {
+        "type": ["null", "string"]
+      },
+      "dst_id": {
+        "type": ["null", "string"]
+      },
+      "dst": {
+        "type": ["null", "string"]
+      },
+      "dst_name": {
+        "type": ["null", "string"]
+      },
+      "dst_ua": {
+        "type": ["null", "string"]
+      },
+      "dst_codec": {
+        "type": ["null", "string"]
+      },
+      "billsec": {
+        "type": ["null", "integer"]
+      },
+      "disposition": {
+        "type": ["null", "string"]
+      },
+      "destination": {
+        "type": ["null", "string"]
+      },
+      "context": {
+        "type": ["null", "string"]
+      },
+      "rate": {
+        "type": ["null", "number"]
+      },
+      "charge": {
+        "type": ["null", "number"]
+      },
+      "t_cause": {
+        "type": ["null", "string"]
+      },
+      "info": {
+        "type": ["null", "string"]
+      },
+      "labels": {
+        "type": ["null", "array"]
+      },
+      "metadata": {
+        "type": ["null", "string"]
+      },
+      "nb_notes": {
+        "type": ["null", "integer"]
+      }
+    }
+  }
+  
