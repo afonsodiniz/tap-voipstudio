@@ -22,6 +22,6 @@ class CDRS(VOIPStudioStream):
 
     name = "cdrs"
     path = "/cdrs"
-    primary_keys = ["uri"]
+    primary_keys = ["call_id"]
 
     schema_filepath = SCHEMAS_DIR / "cdrs.json"  # noqa: ERA001
