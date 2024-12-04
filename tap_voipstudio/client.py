@@ -73,7 +73,7 @@ class VOIPStudioStream(RESTStream):
 
         params: dict = {
             "page": 1,
-            "limit": 5000
+            "limit": 10000
         }
         # if next_page_token:
         #     params["page"] = next_page_token
